@@ -1,0 +1,39 @@
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    background-color: #B0C4DE;
+}
+
+.box{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin-top:200px;
+    width:500px;
+    height:400px;
+    border:2px solid black;
+    border-radius: 20px;
+}
+.box .input-box{
+    margin-top:10px;
+}
+input{
+    border-radius: 5px;
+    outline:none;
+    height:30px;
+}
+.box .btn-box{
+    margin-top:10px;
+    line-height:30px;
+}
+.box .btn-box .buttons{
+    width:60px;
+    margin-left: 40px;
+}
+.box .btn-box a{
+    font-size:14px;
+    margin-left:140px;
+}
